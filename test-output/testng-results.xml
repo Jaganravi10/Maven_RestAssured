@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-07T19:08:11 IST" name="Default suite" finished-at="2024-05-07T19:08:13 IST" duration-ms="2335">
+  <suite started-at="2024-05-07T22:24:09 IST" name="Default suite" finished-at="2024-05-07T22:24:12 IST" duration-ms="3330">
     <groups>
     </groups>
-    <test started-at="2024-05-07T19:08:11 IST" name="Default test" finished-at="2024-05-07T19:08:13 IST" duration-ms="2335">
-      <class name="restassured_bdd.CreateEmployeeDataUsingJsonFile">
-        <test-method signature="createAnEmployeeDataUsingJsonFile()[pri:0, instance:restassured_bdd.CreateEmployeeDataUsingJsonFile@42e99e4a]" started-at="2024-05-07T19:08:11 IST" name="createAnEmployeeDataUsingJsonFile" finished-at="2024-05-07T19:08:13 IST" duration-ms="2307" status="PASS">
+    <test started-at="2024-05-07T22:24:09 IST" name="Default test" finished-at="2024-05-07T22:24:12 IST" duration-ms="3330">
+      <class name="restassured_bdd.RestAssuredJsonSchemaValidation">
+        <test-method signature="vaidationUsingMatchesJsonSchema()[pri:0, instance:restassured_bdd.RestAssuredJsonSchemaValidation@158da8e]" started-at="2024-05-07T22:24:09 IST" name="vaidationUsingMatchesJsonSchema" finished-at="2024-05-07T22:24:12 IST" duration-ms="3293" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createAnEmployeeDataUsingJsonFile -->
-      </class> <!-- restassured_bdd.CreateEmployeeDataUsingJsonFile -->
+        </test-method> <!-- vaidationUsingMatchesJsonSchema -->
+      </class> <!-- restassured_bdd.RestAssuredJsonSchemaValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
