@@ -1,0 +1,32 @@
+{
+  "category" : "Super Hero Movies & TV Series",
+  "acceptedFranchises" : [ "DC", "Marvel" ],
+  "genres" : [ "Action", "Adventure", "Survival", "Dark" ],
+  "movies" : [ {
+    "title" : "The Dark Night",
+    "year" : 2008,
+    "cast" : [ "Bale", "Ledger" ]
+  }, {
+    "title" : "Justice League",
+    "year" : 2008,
+    "cast" : [ "Gadot", "Cavil" ]
+  }, {
+    "title" : "Avengers: Endgame",
+    "year" : 2019,
+    "cast" : [ "Downey", "Evans" ]
+  } ],
+  "tvSeries" : [ {
+    "title" : "Flash",
+    "year" : 2014
+  }, {
+    "title" : "Gotham",
+    "year" : 2014
+  }, {
+    "title" : "Super Girl",
+    "year" : 2015
+  } ],
+  "otherDetails" : {
+    "country" : "Only USA",
+    "language" : "Only English"
+  }
+}

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-07T22:24:09 IST" name="Default suite" finished-at="2024-05-07T22:24:12 IST" duration-ms="3330">
+  <suite started-at="2024-05-08T15:44:12 IST" name="Default suite" finished-at="2024-05-08T15:44:13 IST" duration-ms="675">
     <groups>
     </groups>
-    <test started-at="2024-05-07T22:24:09 IST" name="Default test" finished-at="2024-05-07T22:24:12 IST" duration-ms="3330">
-      <class name="restassured_bdd.RestAssuredJsonSchemaValidation">
-        <test-method signature="vaidationUsingMatchesJsonSchema()[pri:0, instance:restassured_bdd.RestAssuredJsonSchemaValidation@158da8e]" started-at="2024-05-07T22:24:09 IST" name="vaidationUsingMatchesJsonSchema" finished-at="2024-05-07T22:24:12 IST" duration-ms="3293" status="PASS">
+    <test started-at="2024-05-08T15:44:12 IST" name="Default test" finished-at="2024-05-08T15:44:13 IST" duration-ms="675">
+      <class name="restassured_bdd.HamcrestJsonSchemaValidation">
+        <test-method signature="validateJsonSchema()[pri:0, instance:restassured_bdd.HamcrestJsonSchemaValidation@6aba2b86]" started-at="2024-05-08T15:44:13 IST" name="validateJsonSchema" finished-at="2024-05-08T15:44:13 IST" duration-ms="633" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vaidationUsingMatchesJsonSchema -->
-      </class> <!-- restassured_bdd.RestAssuredJsonSchemaValidation -->
+        </test-method> <!-- validateJsonSchema -->
+      </class> <!-- restassured_bdd.HamcrestJsonSchemaValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
