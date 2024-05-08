@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restassured_bdd.RestAssuredJsonSchemaValidation">
+      <class name="restassured_bdd.RequestSpecificationExample">
         <methods>
-          <include name="validationUsingJsonSchemaInClassPath"/>
+          <include name="getAllEmployees"/>
+          <include name="getAnEmployee"/>
         </methods>
-      </class> <!-- restassured_bdd.RestAssuredJsonSchemaValidation -->
+      </class> <!-- restassured_bdd.RequestSpecificationExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
